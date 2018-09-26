@@ -1,0 +1,285 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_viewpage}
+<div {$viewpage_chiddenattr} data-pageid="{$pageid}" data-container="viewpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-12 "> 
+
+{BEGIN viewheader}
+	<h2 {$viewheader_hiddenattr} data-pageid="{$pageid}" data-brick="viewheader" >{$pagetitlelabel tbl_coordenador view}</h2>
+
+{END viewheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+</div>
+{END container_viewpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class=" form-horizontal  col-md-12 "> 
+
+
+<div {$viewfields_hiddenattr} data-pageid="{$pageid}" data-brick="viewfields" >
+
+	<div class="container">
+					{BEGIN idCoordenador_fieldblock}
+	<div class="{$fielddispclass_idCoordenador} col-md-6 bs-viewcontrolgroup" data-fieldname="idCoordenador">
+		<label class="control-label" for="{$labelfor_idCoordenador}">
+			{$label tbl_coordenador idCoordenador}
+		</label>
+		<div class="" >
+			{$idCoordenador_value}&nbsp;
+		</div>
+	</div>
+{END idCoordenador_fieldblock}
+					{BEGIN nomeCoordenador_fieldblock}
+	<div class="{$fielddispclass_nomeCoordenador} col-md-6 bs-viewcontrolgroup" data-fieldname="nomeCoordenador">
+		<label class="control-label" for="{$labelfor_nomeCoordenador}">
+			{$label tbl_coordenador nomeCoordenador}
+		</label>
+		<div class="" >
+			{$nomeCoordenador_value}&nbsp;
+		</div>
+	</div>
+{END nomeCoordenador_fieldblock}
+					{BEGIN cursoCoordenador_fieldblock}
+	<div class="{$fielddispclass_cursoCoordenador} col-md-6 bs-viewcontrolgroup" data-fieldname="cursoCoordenador">
+		<label class="control-label" for="{$labelfor_cursoCoordenador}">
+			{$label tbl_coordenador cursoCoordenador}
+		</label>
+		<div class="" >
+			{$cursoCoordenador_value}&nbsp;
+		</div>
+	</div>
+{END cursoCoordenador_fieldblock}
+					{BEGIN fotoCoordenador_fieldblock}
+	<div class="{$fielddispclass_fotoCoordenador} col-md-6 bs-viewcontrolgroup" data-fieldname="fotoCoordenador">
+		<label class="control-label" for="{$labelfor_fotoCoordenador}">
+			{$label tbl_coordenador fotoCoordenador}
+		</label>
+		<div class="" >
+			{$fotoCoordenador_value}&nbsp;
+		</div>
+	</div>
+{END fotoCoordenador_fieldblock}
+					{BEGIN descCoordenador_fieldblock}
+	<div class="{$fielddispclass_descCoordenador} col-md-6 bs-viewcontrolgroup" data-fieldname="descCoordenador">
+		<label class="control-label" for="{$labelfor_descCoordenador}">
+			{$label tbl_coordenador descCoordenador}
+		</label>
+		<div class="" >
+			{$descCoordenador_value}&nbsp;
+		</div>
+	</div>
+{END descCoordenador_fieldblock}
+					{BEGIN telefoneCoordenador_fieldblock}
+	<div class="{$fielddispclass_telefoneCoordenador} col-md-6 bs-viewcontrolgroup" data-fieldname="telefoneCoordenador">
+		<label class="control-label" for="{$labelfor_telefoneCoordenador}">
+			{$label tbl_coordenador telefoneCoordenador}
+		</label>
+		<div class="" >
+			{$telefoneCoordenador_value}&nbsp;
+		</div>
+	</div>
+{END telefoneCoordenador_fieldblock}
+					{BEGIN emailCoordenador_fieldblock}
+	<div class="{$fielddispclass_emailCoordenador} col-md-6 bs-viewcontrolgroup" data-fieldname="emailCoordenador">
+		<label class="control-label" for="{$labelfor_emailCoordenador}">
+			{$label tbl_coordenador emailCoordenador}
+		</label>
+		<div class="" >
+			{$emailCoordenador_value}&nbsp;
+		</div>
+	</div>
+{END emailCoordenador_fieldblock}
+					{BEGIN unidadeCoordenador_fieldblock}
+	<div class="{$fielddispclass_unidadeCoordenador} col-md-6 bs-viewcontrolgroup" data-fieldname="unidadeCoordenador">
+		<label class="control-label" for="{$labelfor_unidadeCoordenador}">
+			{$label tbl_coordenador unidadeCoordenador}
+		</label>
+		<div class="" >
+			{$unidadeCoordenador_value}&nbsp;
+		</div>
+	</div>
+{END unidadeCoordenador_fieldblock}
+					{BEGIN nomeCurso_fieldblock}
+	<div class="{$fielddispclass_nomeCurso} col-md-6 bs-viewcontrolgroup" data-fieldname="nomeCurso">
+		<label class="control-label" for="{$labelfor_nomeCurso}">
+			{$label tbl_coordenador nomeCurso}
+		</label>
+		<div class="" >
+			{$nomeCurso_value}&nbsp;
+		</div>
+	</div>
+{END nomeCurso_fieldblock}
+					{BEGIN cidade_fieldblock}
+	<div class="{$fielddispclass_cidade} col-md-6 bs-viewcontrolgroup" data-fieldname="cidade">
+		<label class="control-label" for="{$labelfor_cidade}">
+			{$label tbl_coordenador cidade}
+		</label>
+		<div class="" >
+			{$cidade_value}&nbsp;
+		</div>
+	</div>
+{END cidade_fieldblock}
+					{BEGIN idCurso_fieldblock}
+	<div class="{$fielddispclass_idCurso} col-md-6 bs-viewcontrolgroup" data-fieldname="idCurso">
+		<label class="control-label" for="{$labelfor_idCurso}">
+			{$label tbl_coordenador idCurso}
+		</label>
+		<div class="" >
+			{$idCurso_value}&nbsp;
+		</div>
+	</div>
+{END idCurso_fieldblock}
+	</div>
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container    "> 
+
+
+
+
+{BEGIN container_buttons}
+<div {$buttons_chiddenattr} data-pageid="{$pageid}" data-container="buttons" class=" form-group   "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-6 "> 
+
+{BEGIN viewbuttons}
+{BEGIN back_button}
+<button class="btn btn-primary" {$backbutton_attrs}>Voltar à Lista</button>
+{END back_button}
+{BEGIN close_button}
+<button href="#" class="btn btn-primary" {$closebutton_attrs}>Fechar Janela</button>
+{END close_button}
+{END viewbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+
+
+{BEGIN container_leftbuttons_1}
+<div {$leftbuttons_1_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons_1" class="   col-md-4 "> 
+
+{BEGIN rightviewbuttons}
+<div class="btn-group" role="group">
+		{BEGIN prev_button}
+	<button class="btn btn-default {$prevbutton_class}" {$prevbutton_attrs}><span class="glyphicon glyphicon-chevron-left"></span></button>
+	{END prev_button}
+	{BEGIN next_button}
+	<button class="btn btn-default {$nextbutton_class}" {$nextbutton_attrs}><span class="glyphicon glyphicon-chevron-right"></span></button>
+	{END next_button}
+		<div class="btn-group dropup" role="group">
+		<button class="btn btn-default dropdown-toggle {$groupbutton_class}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+		<ul class="dropdown-menu dropdown-left">
+									{BEGIN edit_page_button}
+				<li><a href=# {$edit_page_button_attrs}>Editar</a></li>
+			{END edit_page_button}
+		</ul>
+	</div>
+</div>
+{END rightviewbuttons}
+
+
+
+</div>
+{END container_leftbuttons_1}
+
+
+
+
+
+
+</div>
+{END container_buttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
