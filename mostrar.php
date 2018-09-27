@@ -15,7 +15,7 @@ $resultado_unidade = mysqli_query  ($conn, $query_unidade);
  var app = angular.module("myapp",[]);  
  app.controller("usercontroller", function($scope, $http) {  
       $scope.carregaUnidade = function(){  
-         $http({method: 'GET', url: 'carrega_cursos.php'}).then(function(success) {
+         $http({method: 'GET', url: 'carrega_unidade.php'}).then(function(success) {
             $scope.unidades = success.data;
        
         })      
